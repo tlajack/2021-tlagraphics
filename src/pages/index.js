@@ -46,6 +46,9 @@ const HomeContent = styled.div`
   .gridItems {
     margin-bottom: 2rem;
   }
+  ul {
+    padding-inline-start: 25px;
+  }
 
   /* .subsectionList {
     line-height: 1.4em;
