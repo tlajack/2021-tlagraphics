@@ -1,0 +1,31 @@
+.slick-prev:before {
+font-size: 40px;
+opacity:.3;
+}
+.slick-next:before {
+font-size: 40px;
+opacity:.3;
+}
+.slick-next:hover:before {
+opacity:.6;
+}
+.slick-prev:hover:before {
+opacity:.6;
+}
+.slick-prev {
+left: 20px;
+z-index: 100;
+}
+.slick-next {
+right: 20px;
+z-index: 100;
+}
+
+.slick-arrow {
+    width:40px;
+    height:40px;
+}
+
+.slick-dots{
+    margin-top: -30px !important;
+}
