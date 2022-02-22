@@ -26,6 +26,7 @@ const SlideBox = styled.div`
     color: white;
     padding: 1.5em;
     text-shadow: 2px 2px 4px rgb(0 0 0 / 80%);
+    font-family: "Montserrat", sans-serif;
   }
 `;
 
@@ -37,7 +38,7 @@ const Carousel = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 6000,
   };
   return (
