@@ -11,11 +11,6 @@ const SlideBox2 = styled.div`
   background-color: black !important;
   color: white !important;
   width: 100vw !important;
-  h2 {
-    box-sizing: border-box;
-    color: white;
-    margin: 1em;
-  }
 `;
 
 const TlaServices = () => {

@@ -4,13 +4,71 @@ import { StaticImage } from "gatsby-plugin-image";
 import Layout from "../components/layout";
 import Carousel from "../components/Carousel";
 import TlaServices from "../components/TlaServices";
-import { Link } from "gatsby";
 import styled from "styled-components";
 
 const HomeContent = styled.div`
   h1 {
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    display: inline-block;
+    margin: 2em 0 1em 1em;
+    background-image: linear-gradient(
+      45deg,
+      hsl(177deg 100% 22%) 0%,
+      hsl(172deg 100% 26%) 11%,
+      hsl(167deg 100% 29%) 22%,
+      hsl(156deg 67% 38%) 33%,
+      hsl(140deg 46% 48%) 44%,
+      hsl(115deg 44% 55%) 56%,
+      hsl(93deg 56% 55%) 67%,
+      hsl(77deg 67% 54%) 78%,
+      hsl(65deg 77% 51%) 89%,
+      hsl(55deg 100% 50%) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  h2 {
+    /* box-sizing: border-box; */
+    display: inline-block;
     margin: 1em;
+    background-image: linear-gradient(
+      00deg,
+      hsl(177deg 59% 58%) 0%,
+      hsl(176deg 57% 64%) 11%,
+      hsl(176deg 57% 69%) 22%,
+      hsl(176deg 56% 74%) 33%,
+      hsl(175deg 56% 79%) 44%,
+      hsl(175deg 56% 83%) 56%,
+      hsl(175deg 56% 88%) 67%,
+      hsl(174deg 56% 92%) 78%,
+      hsl(174deg 56% 96%) 89%,
+      hsl(0deg 0% 100%) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  h3 {
+    /* box-sizing: border-box; */
+    display: inline-block;
+    margin: 1em 0 0;
+    background-image: linear-gradient(
+      00deg,
+      hsl(60deg 100% 72%) 0%,
+      hsl(60deg 100% 76%) 12%,
+      hsl(60deg 100% 79%) 24%,
+      hsl(60deg 100% 82%) 35%,
+      hsl(60deg 100% 85%) 46%,
+      hsl(60deg 100% 88%) 57%,
+      hsl(60deg 100% 91%) 68%,
+      hsl(60deg 100% 94%) 78%,
+      hsl(60deg 100% 97%) 89%,
+      hsl(0deg 0% 100%) 100%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
   }
   .sliderContainer {
     display: block;
