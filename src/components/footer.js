@@ -1,4 +1,5 @@
 import React from "react";
+import { FaTwitter, FaFacebookF, FaLinkedin } from "react-icons/fa";
 
 import styled from "styled-components";
 
@@ -9,7 +10,7 @@ const TLAfooter = styled.div`
   background-color: lightgray;
   color: #333;
   text-align: center;
-  font-size: small;
+  /* font-size: small; */
   .mainFooter {
     box-sizing: border-box;
     background-color: gray;
@@ -32,6 +33,9 @@ const TLAfooter = styled.div`
   a:hover {
     color: var(--secondary-light);
   }
+  .social_icons a {
+    padding: 1em;
+  }
 `;
 
 const Footer = () => {
@@ -51,6 +55,20 @@ const Footer = () => {
             <a href="tel:1-905-726-2600">+1 (905) 726-2600</a>
             <br />
             <a href="mailto:info@tlagraphics.com">info@tlagraphics.com</a>
+          </p>
+          <p className="social_icons" alt="twitter icon">
+            <a href="https://twitter.com/tlagraphics" title="twitter">
+              <FaTwitter alt="twitter icon" />
+            </a>
+            <a
+              href="https://www.facebook.com/tlagraphics/"
+              title="facebook icon"
+            >
+              <FaFacebookF alt="facebook" />
+            </a>
+            <a href="https://www.linkedin.com/company/tla-graphics">
+              <FaLinkedin alt="linkedin" />
+            </a>
           </p>
         </div>
         <div>
